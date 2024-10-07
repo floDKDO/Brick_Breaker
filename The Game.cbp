@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="The Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/The Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL2_image" />
+					<Add option="-lSDL2_ttf" />
+					<Add option="-lSDL2_mixer" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/The Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/SDL2/x86_64-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="D:/SDL2/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="XCOPY $(#sdl2)\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
+		</ExtraCommands>
+		<Unit filename="include/balle.hpp" />
+		<Unit filename="include/bonus.hpp" />
+		<Unit filename="include/bouton.hpp" />
+		<Unit filename="include/enJeu.hpp" />
+		<Unit filename="include/grille.hpp" />
+		<Unit filename="include/joueur.hpp" />
+		<Unit filename="include/malus.hpp" />
+		<Unit filename="include/menu.hpp" />
+		<Unit filename="include/menuFinNiveau.hpp" />
+		<Unit filename="include/menuJeuTermine.hpp" />
+		<Unit filename="include/menuOptions.hpp" />
+		<Unit filename="include/menuPerdu.hpp" />
+		<Unit filename="include/menuPrincipal.hpp" />
+		<Unit filename="include/objet.hpp" />
+		<Unit filename="include/renderer.hpp" />
+		<Unit filename="include/selectionnable.hpp" />
+		<Unit filename="include/singleton_systeme.hpp" />
+		<Unit filename="include/surface.hpp" />
+		<Unit filename="include/texte.hpp" />
+		<Unit filename="include/texture.hpp" />
+		<Unit filename="include/toggle.hpp" />
+		<Unit filename="include/tuile.hpp" />
+		<Unit filename="include/window.hpp" />
+		<Unit filename="src/balle.cpp" />
+		<Unit filename="src/bonus.cpp" />
+		<Unit filename="src/bouton.cpp" />
+		<Unit filename="src/enJeu.cpp" />
+		<Unit filename="src/grille.cpp" />
+		<Unit filename="src/joueur.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/malus.cpp" />
+		<Unit filename="src/menu.cpp" />
+		<Unit filename="src/menuFinNiveau.cpp" />
+		<Unit filename="src/menuJeuTermine.cpp" />
+		<Unit filename="src/menuOptions.cpp" />
+		<Unit filename="src/menuPerdu.cpp" />
+		<Unit filename="src/menuPrincipal.cpp" />
+		<Unit filename="src/objet.cpp" />
+		<Unit filename="src/renderer.cpp" />
+		<Unit filename="src/selectionnable.cpp" />
+		<Unit filename="src/singleton_systeme.cpp" />
+		<Unit filename="src/surface.cpp" />
+		<Unit filename="src/texte.cpp" />
+		<Unit filename="src/texture.cpp" />
+		<Unit filename="src/toggle.cpp" />
+		<Unit filename="src/tuile.cpp" />
+		<Unit filename="src/window.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

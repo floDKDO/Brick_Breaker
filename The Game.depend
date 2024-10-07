@@ -1,0 +1,1608 @@
+# depslib dependency file v1.0
+1667593332 source:c:\users\florian\desktop\the game\main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870398 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641932595 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541001618 d:\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1684082327 source:c:\users\florian\desktop\the game\src\inputfield.cpp
+	"inputfield.hpp"
+
+1685536659 c:\users\florian\desktop\the game\include\inputfield.hpp
+	"selectionnable.hpp"
+	"texte.hpp"
+	"singleton_systeme.hpp"
+
+1685535738 source:c:\users\florian\desktop\the game\src\main.cpp
+	"singleton_systeme.hpp"
+	"inputfield.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"joueur.hpp"
+	"toggle.hpp"
+	"menuPrincipal.hpp"
+	"menuOptions.hpp"
+	"menuChoixNom.hpp"
+	"tuile.hpp"
+	"enJeu.hpp"
+
+1678556046 source:c:\users\florian\desktop\the game\src\bouton.cpp
+	"bouton.hpp"
+
+1685536568 c:\users\florian\desktop\the game\include\bouton.hpp
+	"selectionnable.hpp"
+	"singleton_systeme.hpp"
+	"texte.hpp"
+
+1685534342 source:c:\users\florian\desktop\the game\src\texte.cpp
+	"texte.hpp"
+
+1685536780 c:\users\florian\desktop\the game\include\texte.hpp
+	"singleton_systeme.hpp"
+
+1685535122 source:c:\users\florian\desktop\the game\src\joueur.cpp
+	"joueur.hpp"
+
+1685536657 c:\users\florian\desktop\the game\include\joueur.hpp
+	"tuile.hpp"
+	"singleton_systeme.hpp"
+	<vector>
+
+1671544955 source:c:\users\florian\desktop\the game\src\jeu.cpp
+	"jeu.hpp"
+
+1671544871 c:\users\florian\desktop\the game\include\jeu.hpp
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+
+1685566234 source:c:\users\florian\desktop\the game\src\singleton_systeme.cpp
+	"singleton_systeme.hpp"
+	<carte.hpp>
+
+1685566230 c:\users\florian\desktop\the game\include\singleton_systeme.hpp
+	<iostream>
+	<fstream>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+
+1678556046 source:c:\users\florian\desktop\the game\src\toggle.cpp
+	"toggle.hpp"
+
+1685536794 c:\users\florian\desktop\the game\include\toggle.hpp
+	"selectionnable.hpp"
+	"texte.hpp"
+	"singleton_systeme.hpp"
+
+1677004006 source:c:\users\florian\desktop\the game\src\selectionnable.cpp
+	"selectionnable.hpp"
+
+1685536736 c:\users\florian\desktop\the game\include\selectionnable.hpp
+	"singleton_systeme.hpp"
+
+1685535671 source:c:\users\florian\desktop\the game\src\menuprincipal.cpp
+	"menuPrincipal.hpp"
+
+1685536702 c:\users\florian\desktop\the game\include\menuprincipal.hpp
+	<vector>
+	"selectionnable.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"boiteDeDialogue.hpp"
+	"singleton_systeme.hpp"
+
+1685535548 source:c:\users\florian\desktop\the game\src\menuoptions.cpp
+	"menuOptions.hpp"
+
+1685536692 c:\users\florian\desktop\the game\include\menuoptions.hpp
+	<vector>
+	"selectionnable.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"toggle.hpp"
+	"singleton_systeme.hpp"
+
+1683308914 source:c:\users\florian\desktop\the game\src\menuchoixnom.cpp
+	"menuChoixNom.hpp"
+
+1685536674 c:\users\florian\desktop\the game\include\menuchoixnom.hpp
+	<vector>
+	"selectionnable.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"toggle.hpp"
+	"inputfield.hpp"
+	"singleton_systeme.hpp"
+
+1685566370 source:c:\users\florian\desktop\the game\src\tuile.cpp
+	"tuile.hpp"
+
+1685566291 c:\users\florian\desktop\the game\include\tuile.hpp
+	"singleton_systeme.hpp"
+	"elementCarte.hpp"
+
+1685534227 source:c:\users\florian\desktop\the game\src\boitededialogue.cpp
+	"boiteDeDialogue.hpp"
+
+1685536533 c:\users\florian\desktop\the game\include\boitededialogue.hpp
+	"texte.hpp"
+	"singleton_systeme.hpp"
+	<vector>
+
+1685563894 source:c:\users\florian\desktop\the game\src\enjeu.cpp
+	"enJeu.hpp"
+
+1685536616 c:\users\florian\desktop\the game\include\enjeu.hpp
+	"singleton_systeme.hpp"
+	"joueur.hpp"
+	"tuile.hpp"
+	"carte.hpp"
+	"boiteDeDialogue.hpp"
+	<vector>
+
+1685566301 source:c:\users\florian\desktop\the game\src\carte.cpp
+	"carte.hpp"
+	<singleton_systeme.hpp>
+
+1685566181 c:\users\florian\desktop\the game\include\carte.hpp
+	<iostream>
+	<sstream>
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"tuile.hpp"
+	"objet.hpp"
+	<../json.hpp>
+
+1678896810 c:\users\florian\desktop\the game\json.hpp
+	<algorithm>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<cstddef>
+	<exception>
+	<stdexcept>
+	<string>
+	<vector>
+	<array>
+	<cstddef>
+	<cstdint>
+	<string>
+	<utility>
+	<type_traits>
+	<stdint.h>
+	<stdint.h>
+	<version>
+	<cstdlib>
+	<cassert>
+	<compare>
+	<cstddef>
+	<array>
+	<cstddef>
+	<type_traits>
+	<utility>
+	<limits>
+	<type_traits>
+	<utility>
+	<tuple>
+	<iterator>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<cstring>
+	<string>
+	<utility>
+	<experimental/filesystem>
+	<filesystem>
+	<algorithm>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<string>
+	<tuple>
+	<utility>
+	<ranges>
+	<cstdint>
+	<tuple>
+	<utility>
+	<cstdint>
+	<cstddef>
+	<functional>
+	<algorithm>
+	<array>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<array>
+	<cstddef>
+	<cstring>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<istream>
+	<cstddef>
+	<string>
+	<utility>
+	<vector>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<algorithm>
+	<cctype>
+	<cerrno>
+	<cstdlib>
+	<iosfwd>
+	<limits>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<map>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<algorithm>
+	<cstddef>
+	<iterator>
+	<memory>
+	<string>
+	<vector>
+	<ios>
+	<ostream>
+	<algorithm>
+	<array>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<iomanip>
+	<type_traits>
+	<utility>
+	<array>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<functional>
+	<initializer_list>
+	<iterator>
+	<memory>
+	<stdexcept>
+	<type_traits>
+	<utility>
+	<vector>
+	<any>
+	<string_view>
+
+1684950574 source:c:\users\florian\desktop\the game\src\objet.cpp
+	"objet.hpp"
+
+1685536711 c:\users\florian\desktop\the game\include\objet.hpp
+	"singleton_systeme.hpp"
+	"elementCarte.hpp"
+
+1684330995 source:c:\users\florian\desktop\the game\src\elementcarte.cpp
+	"elementCarte.hpp"
+
+1685536598 c:\users\florian\desktop\the game\include\elementcarte.hpp
+	"singleton_systeme.hpp"
+
+1684430394 source:c:\users\florian\desktop\the game\src\pnj.cpp
+	"pnj.hpp"
+
+1684430394 c:\users\florian\desktop\the game\include\pnj.hpp
+
+1685534227 source:c:\users\florian\desktop\new_casse_brique\src\boitededialogue.cpp
+	"boiteDeDialogue.hpp"
+
+1685536533 c:\users\florian\desktop\new_casse_brique\include\boitededialogue.hpp
+	"texte.hpp"
+	"singleton_systeme.hpp"
+	<vector>
+
+1685536780 c:\users\florian\desktop\new_casse_brique\include\texte.hpp
+	"singleton_systeme.hpp"
+
+1713118285 c:\users\florian\desktop\new_casse_brique\include\singleton_systeme.hpp
+	<iostream>
+	<fstream>
+	<map>
+	<random>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"window.hpp"
+	"renderer.hpp"
+
+1678556046 source:c:\users\florian\desktop\new_casse_brique\src\bouton.cpp
+	"bouton.hpp"
+
+1685536568 c:\users\florian\desktop\new_casse_brique\include\bouton.hpp
+	"selectionnable.hpp"
+	"singleton_systeme.hpp"
+	"texte.hpp"
+
+1685536736 c:\users\florian\desktop\new_casse_brique\include\selectionnable.hpp
+	"singleton_systeme.hpp"
+
+1713116879 source:c:\users\florian\desktop\new_casse_brique\src\carte.cpp
+	"carte.hpp"
+	<singleton_systeme.hpp>
+
+1712953588 c:\users\florian\desktop\new_casse_brique\include\carte.hpp
+	<iostream>
+	<sstream>
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"tuile.hpp"
+	"objet.hpp"
+
+1713123213 c:\users\florian\desktop\new_casse_brique\include\tuile.hpp
+	"singleton_systeme.hpp"
+	"elementCarte.hpp"
+
+1712955285 c:\users\florian\desktop\new_casse_brique\include\elementcarte.hpp
+	"singleton_systeme.hpp"
+
+1713122838 c:\users\florian\desktop\new_casse_brique\include\objet.hpp
+	"singleton_systeme.hpp"
+
+1678896810 c:\users\florian\desktop\new_casse_brique\json.hpp
+	<algorithm>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<cstddef>
+	<exception>
+	<stdexcept>
+	<string>
+	<vector>
+	<array>
+	<cstddef>
+	<cstdint>
+	<string>
+	<utility>
+	<type_traits>
+	<stdint.h>
+	<stdint.h>
+	<version>
+	<cstdlib>
+	<cassert>
+	<compare>
+	<cstddef>
+	<array>
+	<cstddef>
+	<type_traits>
+	<utility>
+	<limits>
+	<type_traits>
+	<utility>
+	<tuple>
+	<iterator>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<cstring>
+	<string>
+	<utility>
+	<experimental/filesystem>
+	<filesystem>
+	<algorithm>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<string>
+	<tuple>
+	<utility>
+	<ranges>
+	<cstdint>
+	<tuple>
+	<utility>
+	<cstdint>
+	<cstddef>
+	<functional>
+	<algorithm>
+	<array>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<array>
+	<cstddef>
+	<cstring>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<istream>
+	<cstddef>
+	<string>
+	<utility>
+	<vector>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<algorithm>
+	<cctype>
+	<cerrno>
+	<cstdlib>
+	<iosfwd>
+	<limits>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<map>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<algorithm>
+	<cstddef>
+	<iterator>
+	<memory>
+	<string>
+	<vector>
+	<ios>
+	<ostream>
+	<algorithm>
+	<array>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<iomanip>
+	<type_traits>
+	<utility>
+	<array>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<functional>
+	<initializer_list>
+	<iterator>
+	<memory>
+	<stdexcept>
+	<type_traits>
+	<utility>
+	<vector>
+	<any>
+	<string_view>
+
+1684330995 source:c:\users\florian\desktop\new_casse_brique\src\elementcarte.cpp
+	"elementCarte.hpp"
+
+1713125552 source:c:\users\florian\desktop\new_casse_brique\src\enjeu.cpp
+	"enJeu.hpp"
+
+1713122491 c:\users\florian\desktop\new_casse_brique\include\enjeu.hpp
+	"singleton_systeme.hpp"
+	"joueur.hpp"
+	"tuile.hpp"
+	"carte.hpp"
+	"boiteDeDialogue.hpp"
+	"balle.hpp"
+	"objet.hpp"
+	"bonus.hpp"
+	"malus.hpp"
+	<vector>
+	<sstream>
+
+1712955064 c:\users\florian\desktop\new_casse_brique\include\joueur.hpp
+	"tuile.hpp"
+	"singleton_systeme.hpp"
+	<vector>
+
+1684082327 source:c:\users\florian\desktop\new_casse_brique\src\inputfield.cpp
+	"inputfield.hpp"
+
+1685536659 c:\users\florian\desktop\new_casse_brique\include\inputfield.hpp
+	"selectionnable.hpp"
+	"texte.hpp"
+	"singleton_systeme.hpp"
+
+1712956539 source:c:\users\florian\desktop\new_casse_brique\src\joueur.cpp
+	"joueur.hpp"
+
+1713116774 source:c:\users\florian\desktop\new_casse_brique\src\main.cpp
+	"singleton_systeme.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"joueur.hpp"
+	"toggle.hpp"
+	"menuPrincipal.hpp"
+	"menuOptions.hpp"
+	"tuile.hpp"
+	"enJeu.hpp"
+
+1685536794 c:\users\florian\desktop\new_casse_brique\include\toggle.hpp
+	"selectionnable.hpp"
+	"texte.hpp"
+	"singleton_systeme.hpp"
+
+1712950722 c:\users\florian\desktop\new_casse_brique\include\menuprincipal.hpp
+	<vector>
+	"selectionnable.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"boiteDeDialogue.hpp"
+	"singleton_systeme.hpp"
+
+1712952650 c:\users\florian\desktop\new_casse_brique\include\menuoptions.hpp
+	<vector>
+	"selectionnable.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"toggle.hpp"
+	"singleton_systeme.hpp"
+
+1685536674 c:\users\florian\desktop\new_casse_brique\include\menuchoixnom.hpp
+	<vector>
+	"selectionnable.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"toggle.hpp"
+	"inputfield.hpp"
+	"singleton_systeme.hpp"
+
+1683308914 source:c:\users\florian\desktop\new_casse_brique\src\menuchoixnom.cpp
+	"menuChoixNom.hpp"
+
+1713116830 source:c:\users\florian\desktop\new_casse_brique\src\menuoptions.cpp
+	"menuOptions.hpp"
+
+1713116879 source:c:\users\florian\desktop\new_casse_brique\src\menuprincipal.cpp
+	"menuPrincipal.hpp"
+
+1713120550 source:c:\users\florian\desktop\new_casse_brique\src\objet.cpp
+	"objet.hpp"
+
+1677004006 source:c:\users\florian\desktop\new_casse_brique\src\selectionnable.cpp
+	"selectionnable.hpp"
+
+1713118346 source:c:\users\florian\desktop\new_casse_brique\src\singleton_systeme.cpp
+	"singleton_systeme.hpp"
+	<carte.hpp>
+
+1685534342 source:c:\users\florian\desktop\new_casse_brique\src\texte.cpp
+	"texte.hpp"
+
+1678556046 source:c:\users\florian\desktop\new_casse_brique\src\toggle.cpp
+	"toggle.hpp"
+
+1713123299 source:c:\users\florian\desktop\new_casse_brique\src\tuile.cpp
+	"tuile.hpp"
+
+1713124861 source:c:\users\florian\desktop\new_casse_brique\src\balle.cpp
+	"balle.hpp"
+
+1712956675 c:\users\florian\desktop\new_casse_brique\include\balle.hpp
+	<SDL2/SDL.h>
+	<string>
+	<iostream>
+	"singleton_systeme.hpp"
+
+1713116357 source:c:\users\florian\desktop\new_casse_brique\src\window.cpp
+	"window.hpp"
+
+1713116349 c:\users\florian\desktop\new_casse_brique\include\window.hpp
+	<SDL2/SDL.h>
+	<string>
+	<iostream>
+
+1713116410 c:\users\florian\desktop\new_casse_brique\include\renderer.hpp
+	<SDL2/SDL.h>
+	<string>
+	<iostream>
+
+1713116410 source:c:\users\florian\desktop\new_casse_brique\src\renderer.cpp
+	"renderer.hpp"
+
+1713119885 c:\users\florian\desktop\new_casse_brique\include\bonusmalus.hpp
+	"singleton_systeme.hpp"
+
+1713119835 source:c:\users\florian\desktop\new_casse_brique\src\bonusmalus.cpp
+	"bonusMalus.hpp"
+
+1713122745 source:c:\users\florian\desktop\new_casse_brique\src\bonus.cpp
+	"bonus.hpp"
+
+1713122824 c:\users\florian\desktop\new_casse_brique\include\bonus.hpp
+	"objet.hpp"
+
+1713122897 source:c:\users\florian\desktop\new_casse_brique\src\malus.cpp
+	"malus.hpp"
+
+1713122828 c:\users\florian\desktop\new_casse_brique\include\malus.hpp
+	"objet.hpp"
+
+1715368738 source:c:\users\florian\desktop\casse-brique\src\balle.cpp
+	"balle.hpp"
+
+1715428616 c:\users\florian\desktop\casse-brique\include\balle.hpp
+	<SDL2/SDL.h>
+	<string>
+	<iostream>
+	<memory>
+	"singleton_systeme.hpp"
+
+1715370460 c:\users\florian\desktop\casse-brique\include\singleton_systeme.hpp
+	<iostream>
+	<random>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"window.hpp"
+	"renderer.hpp"
+	"surface.hpp"
+	"texture.hpp"
+
+1715370584 c:\users\florian\desktop\casse-brique\include\window.hpp
+	<SDL2/SDL.h>
+	<string>
+	<iostream>
+
+1715370345 c:\users\florian\desktop\casse-brique\include\renderer.hpp
+	<SDL2/SDL.h>
+	<iostream>
+
+1714332828 source:c:\users\florian\desktop\casse-brique\src\boitededialogue.cpp
+	"boiteDeDialogue.hpp"
+
+1714332734 c:\users\florian\desktop\casse-brique\include\boitededialogue.hpp
+	"texte.hpp"
+	"singleton_systeme.hpp"
+	<vector>
+
+1715293924 c:\users\florian\desktop\casse-brique\include\texte.hpp
+	"singleton_systeme.hpp"
+	<memory>
+	<sstream>
+
+1715368883 source:c:\users\florian\desktop\casse-brique\src\bouton.cpp
+	"bouton.hpp"
+
+1715289606 c:\users\florian\desktop\casse-brique\include\bouton.hpp
+	"selectionnable.hpp"
+	"singleton_systeme.hpp"
+	<memory>
+
+1715370401 c:\users\florian\desktop\casse-brique\include\selectionnable.hpp
+	"singleton_systeme.hpp"
+
+1713116879 source:c:\users\florian\desktop\casse-brique\src\carte.cpp
+	"carte.hpp"
+	<singleton_systeme.hpp>
+
+1712953588 c:\users\florian\desktop\casse-brique\include\carte.hpp
+	<iostream>
+	<sstream>
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"tuile.hpp"
+	"objet.hpp"
+
+1715370569 c:\users\florian\desktop\casse-brique\include\tuile.hpp
+	"singleton_systeme.hpp"
+	<memory>
+
+1714332734 c:\users\florian\desktop\casse-brique\include\elementcarte.hpp
+	"singleton_systeme.hpp"
+
+1715429206 c:\users\florian\desktop\casse-brique\include\objet.hpp
+	"singleton_systeme.hpp"
+	<memory>
+
+1684330995 source:c:\users\florian\desktop\casse-brique\src\elementcarte.cpp
+	"elementCarte.hpp"
+
+1715429080 source:c:\users\florian\desktop\casse-brique\src\joueur.cpp
+	"joueur.hpp"
+
+1715429072 c:\users\florian\desktop\casse-brique\include\joueur.hpp
+	"tuile.hpp"
+	"singleton_systeme.hpp"
+	<array>
+
+1715369733 source:c:\users\florian\desktop\casse-brique\src\main.cpp
+	"singleton_systeme.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"joueur.hpp"
+	"toggle.hpp"
+	"menuPrincipal.hpp"
+	"menuOptions.hpp"
+	"menuFinNiveau.hpp"
+	"menuPerdu.hpp"
+	"menuJeuTermine.hpp"
+	"tuile.hpp"
+	"enJeu.hpp"
+
+1715370503 c:\users\florian\desktop\casse-brique\include\toggle.hpp
+	"selectionnable.hpp"
+	"texte.hpp"
+	"singleton_systeme.hpp"
+
+1715292318 c:\users\florian\desktop\casse-brique\include\menuprincipal.hpp
+	"menu.hpp"
+	"bouton.hpp"
+
+1715292318 c:\users\florian\desktop\casse-brique\include\menuoptions.hpp
+	"menu.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"toggle.hpp"
+
+1715428771 c:\users\florian\desktop\casse-brique\include\enjeu.hpp
+	"singleton_systeme.hpp"
+	"joueur.hpp"
+	"tuile.hpp"
+	"balle.hpp"
+	"bonus.hpp"
+	"malus.hpp"
+	"grille.hpp"
+	"texte.hpp"
+	<vector>
+	<sstream>
+	<memory>
+
+1715286889 c:\users\florian\desktop\casse-brique\include\bonus.hpp
+	"objet.hpp"
+
+1715263683 c:\users\florian\desktop\casse-brique\include\malus.hpp
+	"objet.hpp"
+
+1715369938 source:c:\users\florian\desktop\casse-brique\src\menuoptions.cpp
+	"menuOptions.hpp"
+
+1715370004 source:c:\users\florian\desktop\casse-brique\src\menuprincipal.cpp
+	"menuPrincipal.hpp"
+
+1713120550 source:c:\users\florian\desktop\casse-brique\src\objet.cpp
+	"objet.hpp"
+
+1715370048 source:c:\users\florian\desktop\casse-brique\src\selectionnable.cpp
+	"selectionnable.hpp"
+
+1715429030 source:c:\users\florian\desktop\casse-brique\src\singleton_systeme.cpp
+	"singleton_systeme.hpp"
+
+1715370121 source:c:\users\florian\desktop\casse-brique\src\texte.cpp
+	"texte.hpp"
+
+1715429387 source:c:\users\florian\desktop\casse-brique\src\toggle.cpp
+	"toggle.hpp"
+
+1715426852 source:c:\users\florian\desktop\casse-brique\src\tuile.cpp
+	"tuile.hpp"
+
+1715429218 source:c:\users\florian\desktop\casse-brique\src\bonus.cpp
+	"bonus.hpp"
+
+1715429212 source:c:\users\florian\desktop\casse-brique\src\malus.cpp
+	"malus.hpp"
+
+1715370029 source:c:\users\florian\desktop\casse-brique\src\renderer.cpp
+	"renderer.hpp"
+
+1715370169 source:c:\users\florian\desktop\casse-brique\src\window.cpp
+	"window.hpp"
+
+1684430394 source:c:\users\florian\desktop\casse-brique\src\pnj.cpp
+	"pnj.hpp"
+
+1684430394 c:\users\florian\desktop\casse-brique\include\pnj.hpp
+
+1715429242 source:c:\users\florian\desktop\casse-brique\src\enjeu.cpp
+	"enJeu.hpp"
+
+1715428934 source:c:\users\florian\desktop\casse-brique\src\grille.cpp
+	"grille.hpp"
+
+1715428838 c:\users\florian\desktop\casse-brique\include\grille.hpp
+	<SDL2/SDL.h>
+	<iostream>
+	<sstream>
+	<fstream>
+	<vector>
+	"singleton_systeme.hpp"
+	"tuile.hpp"
+
+1715369818 source:c:\users\florian\desktop\casse-brique\src\menufinniveau.cpp
+	"menuFinNiveau.hpp"
+
+1715292318 c:\users\florian\desktop\casse-brique\include\menufinniveau.hpp
+	"menu.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+
+1715369860 source:c:\users\florian\desktop\casse-brique\src\menujeutermine.cpp
+	"menuJeuTermine.hpp"
+
+1715292318 c:\users\florian\desktop\casse-brique\include\menujeutermine.hpp
+	"menu.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+
+1715369975 source:c:\users\florian\desktop\casse-brique\src\menuperdu.cpp
+	"menuPerdu.hpp"
+
+1715292318 c:\users\florian\desktop\casse-brique\include\menuperdu.hpp
+	"menu.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+
+1715429296 c:\users\florian\desktop\casse-brique\include\menu.hpp
+	<vector>
+	"selectionnable.hpp"
+	"singleton_systeme.hpp"
+
+1715362085 source:c:\users\florian\desktop\casse-brique\src\menu.cpp
+	"menu.hpp"
+
+1715370131 source:c:\users\florian\desktop\casse-brique\src\texture.cpp
+	"texture.hpp"
+
+1715370358 c:\users\florian\desktop\casse-brique\include\texture.hpp
+	"singleton_systeme.hpp"
+
+1715370107 source:c:\users\florian\desktop\casse-brique\src\surface.cpp
+	"surface.hpp"
+
+1715370352 c:\users\florian\desktop\casse-brique\include\surface.hpp
+	"singleton_systeme.hpp"
+
+1715085561 source:c:\users\user\desktop\casse-brique\src\menujeutermine.cpp
+	"menuJeuTermine.hpp"
+
+1715078957 c:\users\user\desktop\casse-brique\include\menujeutermine.hpp
+	"menu.hpp"
+
+1715084439 c:\users\user\desktop\casse-brique\include\menu.hpp
+	<vector>
+	<sstream>
+	"selectionnable.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"toggle.hpp"
+	"singleton_systeme.hpp"
+
+1715084596 c:\users\user\desktop\casse-brique\include\selectionnable.hpp
+	"singleton_systeme.hpp"
+
+1715084196 c:\users\user\desktop\casse-brique\include\singleton_systeme.hpp
+	<iostream>
+	<fstream>
+	<map>
+	<random>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"window.hpp"
+	"renderer.hpp"
+	"surface.hpp"
+	"texture.hpp"
+
+1715078957 c:\users\user\desktop\casse-brique\include\window.hpp
+	<SDL2/SDL.h>
+	<string>
+	<iostream>
+
+1715078957 c:\users\user\desktop\casse-brique\include\renderer.hpp
+	<SDL2/SDL.h>
+	<string>
+	<iostream>
+
+1715083690 c:\users\user\desktop\casse-brique\include\surface.hpp
+	"singleton_systeme.hpp"
+
+1715083126 c:\users\user\desktop\casse-brique\include\texture.hpp
+	"singleton_systeme.hpp"
+
+1715084629 c:\users\user\desktop\casse-brique\include\bouton.hpp
+	"selectionnable.hpp"
+	"singleton_systeme.hpp"
+	"texte.hpp"
+
+1715082573 c:\users\user\desktop\casse-brique\include\texte.hpp
+	"singleton_systeme.hpp"
+
+1715084802 c:\users\user\desktop\casse-brique\include\toggle.hpp
+	"selectionnable.hpp"
+	"texte.hpp"
+	"singleton_systeme.hpp"
+
+1715085561 source:c:\users\user\desktop\casse-brique\src\menuoptions.cpp
+	"menuOptions.hpp"
+
+1715085090 c:\users\user\desktop\casse-brique\include\menuoptions.hpp
+	"menu.hpp"
+
+1715085561 source:c:\users\user\desktop\casse-brique\src\menuperdu.cpp
+	"menuPerdu.hpp"
+
+1715078957 c:\users\user\desktop\casse-brique\include\menuperdu.hpp
+	"menu.hpp"
+
+1715085561 source:c:\users\user\desktop\casse-brique\src\menuprincipal.cpp
+	"menuPrincipal.hpp"
+
+1715085188 c:\users\user\desktop\casse-brique\include\menuprincipal.hpp
+	"menu.hpp"
+
+1713177893 source:c:\users\user\desktop\casse-brique\src\objet.cpp
+	"objet.hpp"
+
+1715084474 c:\users\user\desktop\casse-brique\include\objet.hpp
+	"singleton_systeme.hpp"
+
+1715085561 source:c:\users\user\desktop\casse-brique\src\renderer.cpp
+	"renderer.hpp"
+
+1715078958 source:c:\users\user\desktop\casse-brique\src\selectionnable.cpp
+	"selectionnable.hpp"
+
+1715078958 source:c:\users\user\desktop\casse-brique\src\singleton_systeme.cpp
+	"singleton_systeme.hpp"
+
+1715085561 source:c:\users\user\desktop\casse-brique\src\surface.cpp
+	"surface.hpp"
+
+1715083979 source:c:\users\user\desktop\casse-brique\src\texte.cpp
+	"texte.hpp"
+
+1715085561 source:c:\users\user\desktop\casse-brique\src\texture.cpp
+	"texture.hpp"
+
+1715085561 source:c:\users\user\desktop\casse-brique\src\toggle.cpp
+	"toggle.hpp"
+
+1715084004 source:c:\users\user\desktop\casse-brique\src\tuile.cpp
+	"tuile.hpp"
+
+1715082540 c:\users\user\desktop\casse-brique\include\tuile.hpp
+	"singleton_systeme.hpp"
+
+1715085548 source:c:\users\user\desktop\casse-brique\src\window.cpp
+	"window.hpp"
+
+1715085426 source:c:\users\user\desktop\casse-brique\src\balle.cpp
+	"balle.hpp"
+
+1715080205 c:\users\user\desktop\casse-brique\include\balle.hpp
+	<SDL2/SDL.h>
+	<string>
+	<iostream>
+	"singleton_systeme.hpp"
+
+1715080116 source:c:\users\user\desktop\casse-brique\src\bonus.cpp
+	"bonus.hpp"
+
+1715080181 c:\users\user\desktop\casse-brique\include\bonus.hpp
+	"objet.hpp"
+
+1715085561 source:c:\users\user\desktop\casse-brique\src\bouton.cpp
+	"bouton.hpp"
+
+1715086109 source:c:\users\user\desktop\casse-brique\src\enjeu.cpp
+	"enJeu.hpp"
+
+1715081981 c:\users\user\desktop\casse-brique\include\enjeu.hpp
+	"singleton_systeme.hpp"
+	"joueur.hpp"
+	"tuile.hpp"
+	"balle.hpp"
+	"objet.hpp"
+	"bonus.hpp"
+	"malus.hpp"
+	"grille.hpp"
+	"texte.hpp"
+	<vector>
+	<sstream>
+
+1715082089 c:\users\user\desktop\casse-brique\include\joueur.hpp
+	"tuile.hpp"
+	"singleton_systeme.hpp"
+	<vector>
+	<array>
+
+1715080175 c:\users\user\desktop\casse-brique\include\malus.hpp
+	"objet.hpp"
+
+1715078957 c:\users\user\desktop\casse-brique\include\grille.hpp
+	<SDL2/SDL.h>
+	<iostream>
+	<sstream>
+	<vector>
+	"singleton_systeme.hpp"
+	"tuile.hpp"
+
+1715085561 source:c:\users\user\desktop\casse-brique\src\grille.cpp
+	"grille.hpp"
+
+1715082195 source:c:\users\user\desktop\casse-brique\src\joueur.cpp
+	"joueur.hpp"
+
+1715078958 source:c:\users\user\desktop\casse-brique\src\main.cpp
+	"singleton_systeme.hpp"
+	"bouton.hpp"
+	"texte.hpp"
+	"joueur.hpp"
+	"toggle.hpp"
+	"menuPrincipal.hpp"
+	"menuOptions.hpp"
+	"menuFinNiveau.hpp"
+	"menuPerdu.hpp"
+	"menuJeuTermine.hpp"
+	"tuile.hpp"
+	"enJeu.hpp"
+
+1715078957 c:\users\user\desktop\casse-brique\include\menufinniveau.hpp
+	"menu.hpp"
+
+1715080116 source:c:\users\user\desktop\casse-brique\src\malus.cpp
+	"malus.hpp"
+
+1715078958 source:c:\users\user\desktop\casse-brique\src\menu.cpp
+	"menu.hpp"
+
+1715085469 source:c:\users\user\desktop\casse-brique\src\menufinniveau.cpp
+	"menuFinNiveau.hpp"
+
