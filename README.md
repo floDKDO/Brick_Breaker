@@ -1,5 +1,9 @@
-# Casse Brique
+# Brick Breaker
 
-## Auteur : HALM Florian M1 SIRIS
+![](https://github.com/floDKDO/Brick_Breaker/blob/main/showcase/video.gif)
 
-## Utilisation de SDL_image, SDL_ttf et SDL_mixer
+Brick breaker game that can be played using the mouse or keyboard (go to the *Options* menu to choose).
+When a brick is broken, there is a chance that a bonus or malus will appear : 
+- large/small ball
+- large/small platform
+- multi-balls
